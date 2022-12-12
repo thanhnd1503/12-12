@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>máy tính bỏ túi</title>
+</head>
+<body>
+  <input type="text" name="math" id="do"> <br><br>
+  <label >
+    <button type="button" name="number"  value="1" onclick="inputValue(this.value)">1</button>
+    <button type="button" name="number" value="2" onclick="inputValue(this.value)">2</button>
+    <button type="button" name="number" value="3" onclick="inputValue(this.value)">3</button>
+    <button type="button" name="cal" value="+" onclick="inputValue(this.value)">+</button>
+  </label><br>
+  <label>
+      <button type="button" name="number" value="4" onclick="inputValue(this.value)">4</button>
+      <button type="button" name="number" value="5" onclick="inputValue(this.value)">5</button>
+      <button type="button" name="number" value="6"onclick="inputValue(this.value)">6</button>
+      <button type="button" name="cal" value="-" onclick="inputValue(this.value)">-</button>
+  </label><br>
+  <label>
+      <button type="button" name="number" value="7" onclick="inputValue(this.value)">7</button>
+      <button type="button" name="number" value="8" onclick="inputValue(this.value)">8</button>
+      <button type="button" name="number" value="9" onclick="inputValue(this.value)">9</button>
+      <button type="button" name="cal" value="*" onclick="inputValue(this.value)">*</button>
+  </label><br>
+  <label>
+      <button type="button" name="cal" value="Ac"onclick="xoa()">Ac</button>
+      <button type="button" name="number" value="0"onclick="inputValue(this.value)">0</button>
+      <button type="button" name="number" value="="onclick="result()">=</button>
+      <button type="button" name="cal" value="/"onclick="inputValue(this.value)">/</button>
+  </label><br>
+<script src="Calculator.js"></script>
+</body>
+
+</html>
